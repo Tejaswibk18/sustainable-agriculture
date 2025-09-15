@@ -1,30 +1,74 @@
-# Sustainable Agriculture: AI-Based Crop Disease Detection and Advisory System
+🌱 Sustainable Agriculture – Crop Recommendation System
+📌 Project Overview
 
-## Project Overview
-This project aims to develop an **AI-powered system** that detects crop diseases from leaf images and provides actionable advisory suggestions to farmers. Leveraging **Convolutional Neural Networks (CNN) and Transfer Learning**, the system is designed to deliver high accuracy and real-world usability. In future iterations, it can be deployed as a **web application** for easy access by farmers.
+This project is a Machine Learning-based Crop Recommendation System designed to help farmers and agricultural planners identify the most suitable crop to grow based on soil and environmental conditions.
 
-## Objectives
-- Detect crop diseases accurately using deep learning.
-- Provide actionable recommendations for disease management.
-- Create a scalable and extendable codebase for future enhancements.
+By analyzing key factors like Nitrogen (N), Phosphorus (P), Potassium (K), temperature, humidity, pH, and rainfall, the model predicts the best crop for sustainable agriculture.
 
-## Dataset
-- **PlantVillage Dataset (Kaggle)**  
-  Contains 50,000+ labeled images of various crop leaves and diseases.  
-  [Kaggle Dataset Link](https://www.kaggle.com/datasets/emmarex/plantdisease)
+🎯 Objectives
 
-## Week 1 Milestone / Improvisations
-- Added disease advisory suggestions along with detection for practical usage.
-- Designed a **flexible project structure** for future web app deployment.
-- Planned to use **Transfer Learning** (ResNet / MobileNet) to achieve better accuracy with smaller datasets.
+To apply AI/ML techniques in agriculture for better productivity.
 
+To recommend suitable crops based on soil nutrients & climatic conditions.
 
-## Next Steps
-- Implement data preprocessing and augmentation.
-- Build and train CNN / Transfer Learning models.
-- Evaluate model performance and optimize accuracy.
-- Deploy a simple web interface for farmers to upload images and get disease predictions.
+To visualize crop distribution, feature correlations, and model performance.
 
-## License
-This project is for educational and internship purposes.
+To create a lightweight, easy-to-run project without heavy dependencies.
 
+🛠️ Tools & Technologies
+
+Python 3
+
+Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+
+Algorithm: Random Forest Classifier
+
+📊 Dataset
+
+Source: Kaggle Crop Recommendation Dataset
+
+Features:
+
+N → Nitrogen content in soil
+
+P → Phosphorus content in soil
+
+K → Potassium content in soil
+
+Temperature (°C)
+
+Humidity (%)
+
+pH level of soil
+
+Rainfall (mm)
+
+Target: Crop label (rice, maize, cotton, etc.)
+
+🔎 Methodology
+
+Data preprocessing & exploration
+
+Visualization (crop distribution, feature correlation, feature importance)
+
+Train-test split (80-20)
+
+Model training with Random Forest Classifier
+
+Evaluation using accuracy & classification report
+
+Graphs for results visualization
+
+📈 Results & Visualizations
+
+Crop Distribution Plot
+
+Correlation Heatmap of Features
+
+Feature Importance Bar Graph
+
+Model Accuracy & Classification Report
+
+🏆 Conclusion
+
+This project demonstrates how AI/ML can be leveraged for sustainable agriculture, helping farmers make data-driven decisions about which crops to grow under specific soil and climatic conditions.
